@@ -80,7 +80,8 @@ add StockQuantity int default 50;
 --20. Rename Category to ProductCategory
 ALTER TABLE Products
 RENAME COLUMN Category TO ProductCategory;
-
+или
+EXEC sp_rename 'Products.Category',  'ProductCategory', 'COLUMN';
 --21. Insert 5 records into the Products table using standard INSERT INTO queries.
 insert into Products values 
 (1, 'cred', 'bank', 190, 'head', null),

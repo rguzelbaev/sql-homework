@@ -1,5 +1,4 @@
-create database hw_lesson_16;
-use hw_lesson_16;
+
 
 --Вопросы
 # Lesson-16: CTEs and Derived Tables
